@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="appengine-angular-guestbook-java:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="appengine-angular-guestbook-java-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="appengine-angular-guestbook-java:war exploded" />
+    </root>
+  </artifact>
+</component>

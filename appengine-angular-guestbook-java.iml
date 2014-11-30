@@ -45,5 +45,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.mockito:mockito-all:1.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-testing:1.8.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.google.appengine:appengine-api-stubs:1.8.8" level="project" />
+    <orderEntry type="library" name="Angular" level="project" />
   </component>
 </module>
