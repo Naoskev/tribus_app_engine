@@ -1,7 +1,7 @@
 /* app css stylesheet */
 
 body {
-  background: #B3D9F2;
+  background: darkgreen;
   margin:0;
   padding:0;
   height:100%;
@@ -16,6 +16,6 @@ body {
    position:absolute;
    bottom:0;
    width: 100%;
-   background: #A3C9E2;
+   background: white;
    font-style: italic;
 }
