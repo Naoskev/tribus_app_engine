@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+h3{
+	text-align:center;
+}
+
+
+div#tableauBiens {
+    float: left;
+    width: 200px;
+	height: 200px;
+    background: lightyellow;
+}
+
+div#tableauGuerre {
+    float: left;
+    width: 200px;
+	height: 200px;
+    background: pink;
+}
+
+div#tableauCulture {
+    float: left;
+    width: 200px;
+	height: 200px;
+    background: lightblue;
+}
+
+div#tableauTrait {
+    float: left;
+    width: 200px;
+	height: 200px;
+    background: gray;
+}
+
+div#tableauExpedition {
+    float: left;
+    width: 200px;
+	height: 200px;
+    background: lightgreen;
+}
+
+div#boutonPlusUneFamilleBiens{
+	text-align: center;
+}
+
+div#boutonMoinsUneFamilleBiens{
+	text-align: center;
+}
+
+div#boutonPlusUneFamilleGuerre{
+	text-align: center;
+}
+
+div#boutonMoinsUneFamilleGuerre{
+	text-align: center;
+}
+
+div#boutonPlusUneFamilleCulture{
+	text-align: center;
+}
+
+div#boutonMoinsUneFamilleCulture{
+	text-align: center;
+}
+
+div#boutonAdoptionTrait{
+	text-align: center;
+}
+
+div#boutonOubliTrait{
+	text-align: center;
+}
+
+div#boutonExpedition{
+	text-align: center;
+}
