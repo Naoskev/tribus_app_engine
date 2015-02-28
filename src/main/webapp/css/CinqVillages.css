@@ -48,6 +48,19 @@ body {
 	width:210px;
 	box-sizing: border-box;
 }
+
+.inBlockLarge {
+	float:left;
+	margin:5px;
+	padding:30px;
+	padding-top:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+	height:200px;
+	width:650px;
+	box-sizing: border-box;
+}
 	
 .headerBlock{
 	margin:5px;
@@ -57,6 +70,26 @@ body {
 	border-color:white;
 	height:40px;
 	width:640px;
+}
+
+.buttonBlock{
+	width:56px;	
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+	height:185px;
+	float:left;
+	background-color:gray;
+}
+
+.buttonBlockSmall{
+	width:56px;	
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+	height:136px;
+	float:left;
+	display:none;
 }
 
 p{
@@ -80,11 +113,30 @@ h5{
 }
 
 .regularButton{
-	width:40px;
-	height:40px;
+	color:white;
+	width:30px;
+	height:30px;
 	font-size:7px;
-	margin:3px;
+	margin:7px;
+	border-width:0px;
     border-radius: 50%;
+	float:left;
+}
+
+.oisifButton{
+	color:white;
+	width:30px;
+	height:30px;
+	font-size:7px;
+	margin:8px;
+	border-width:0px;
+    border-radius: 50%;
+	float:left;
+}
+
+
+.buttonBlock:hover .buttonBlockSmall{
+	display:block;
 }
 
 
