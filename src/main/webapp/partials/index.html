@@ -6,7 +6,9 @@
 <title>Village</title>
 </head>
 
+<body>
 
+<script src="jquery/jquery-2.1.4.min.js"></script>
 
 <div id="interfaceJeu">
 
@@ -39,184 +41,83 @@
 
   <br/>
 
-  <img src="SVG/batir.svg" class="traitOption"></>
+  <button class="boutonTrait"><img src="SVG/batir.svg" class="traitOption"></></button>
 
   <br/>
 
-  <img src="SVG/batir.svg" class="traitOption"></>
-  <img src="SVG/recruterRichesse.svg" class="traitOption"></>
-  <img src="SVG/recruterSavoir.svg" class="traitOption"></>
-  <img src="SVG/recruterGuerre.svg" class="traitOption"></>
-  <img src="SVG/Guerroyer.svg" class="traitOption"></>
+  <button class="boutonTrait"><img src="SVG/batir.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterRichesse.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterSavoir.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterGuerre.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/Guerroyer.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/batir.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterRichesse.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterSavoir.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterGuerre.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/Guerroyer.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/batir.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterRichesse.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterSavoir.svg" class="traitOption"></></button><!--
+--><button class="boutonTrait"><img src="SVG/recruterGuerre.svg" class="traitOption"></></button>
+
+
+
 
   <textarea placeholder="village" maxlength="15" autofocus id="cible"></textarea>
 
-  <img src="SVG/envoyer.svg" id="envoyer"></>
+  <br/>
+
+  <button id="boutonEnvoyer"><img src="SVG/envoyer.svg" id="envoyer"></></button>
 
   <p id="biens">3</>
 
 </div>
 
-<div class="expeditionResume">
+<script>
+$( ".boutonTrait" ).click(function() {
+  $( this ).toggleClass( "valider" );
+});
+</script>
 
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
-
-<div class="expeditionResume">
-
-  <img src="SVG/batir.svg" class="traitResume"></>
-  <img src="SVG/recruterRichesse.svg" class="traitResume"></>
-  <img src="SVG/recruterSavoir.svg" class="traitResume"></>
-  <img src="SVG/recruterGuerre.svg" class="traitResume"></>
-  <img src="SVG/Guerroyer.svg" class="traitResume"></>
-
-  <p class="villageResume">Beneterra</>
-
-</div>
+<script>
+$( "#boutonEnvoyer" ).click(function() {
+  $( this ).toggleClass( "valider" );
+});
+</script>
 
 
 
-<div id="messagerie">
-
-
-  <img src="SVG/precedent.svg" id="precedentIcone"></>
-
-
-  <img src="SVG/suivant.svg" id="suivantIcone"></>
-
-  <p class="saisonMessage">
-    Saison 15
-  </>
-
-  <p class="villageMessage">
-    Aacad
-  </>
-
-  <br/>
-
-  <img src="SVG/batir.svg" class="traitMessage"></>
-  <img src="SVG/recruterRichesse.svg" class="traitMessage"></>
-  <img src="SVG/recruterSavoir.svg" class="traitMessage"></>
-  <img src="SVG/recruterGuerre.svg" class="traitMessage"></>
-  <img src="SVG/Guerroyer.svg" class="traitMessage"></>
-
-
+<div class="messagerie">
   <p class="messageDynamique">
-    L'expédition vers Kentos s’est déroulée à merveille.
-    Nos envoyés sont parvenus à bâtir un avant-poste pour recruter régulièrement des sages et des guerriers Kentiens.
-    Nous avons rencontré des envoyés des villages de VALUS, HUMBRO et SAND'HOC
-    Nous avons aussi renouvellé notre connaissance de la culture de Kentos.
+    Les nôtres sont de retour de BENETERRA. <br/>
+    Nous y avons bâti une guilde. <br/>
+    Nous y avons recruté des guerriers. <br/>
+    Nous y avons recruté des sages. <br/>
+    Il y avait là-bas des gens de PERCE-CIEL.
   </>
+</div>
 
-  <img src="SVG/batir.svg" class="traitAcquis"></>
+<div class="messagerie">
+  <p class="messageDynamique">
+    Les nôtres sont de retour de PERCE-CIEL. <br/>
+    Nous y avons guerroyé. <br/>
+  </>
+</div>
 
+<div class="messagerie">
+  <p class="messageDynamique">
+    Des Gens sont venus de AACAD. <br/>
+    Ils ont recruté de nos guerriers. <br/>
+    Ils ont guerroyé avec nous.
+  </>
+</div>
+
+<div class="messagerie">
+  <p class="messageDynamique">
+    Des Gens sont venus de PERCE-CIEL. <br/>
+    Ils ont été arrétés par nos guerriers.
+  </>
 </div>
 
 
-
-
-
-</div>
+</body>
